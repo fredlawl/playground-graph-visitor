@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GraphVisitor
+namespace GraphLib
 {
 	public abstract class Vertex<T> : IEquatable<T> where T : Vertex<T>
 	{

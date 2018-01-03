@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GraphVisitor
+namespace GraphLib
 {
 	public class Edge<T> where T : Vertex<T>
 	{

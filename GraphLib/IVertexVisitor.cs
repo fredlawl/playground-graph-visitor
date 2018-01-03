@@ -1,4 +1,4 @@
-﻿namespace GraphVisitor
+﻿namespace GraphLib
 {
 	public interface IVertexVisitor<TVertex> where TVertex : Vertex<TVertex>
 	{

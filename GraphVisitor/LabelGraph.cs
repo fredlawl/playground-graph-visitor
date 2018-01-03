@@ -1,4 +1,6 @@
-﻿namespace GraphVisitor
+﻿using GraphLib;
+
+namespace GraphVisitor
 {
 	public class LabelGraph : BaseGraph<LabelGraph, Label>
 	{
