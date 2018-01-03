@@ -1,14 +1,19 @@
-﻿namespace GraphVisitor
+﻿using System;
+
+namespace GraphVisitor
 {
 	public class Edge<T> where T : Vertex<T>
 	{
 		public T Vertex { get; protected set; }
 		public string Label { get; protected set; }
 
-		public Edge(T to, string label)
+		public Edge(T to, string label = null)
 		{
+			if (to == null)
+				throw new ArgumentNullException(nameof(to));
+			
 			Vertex = to;
-			Label = label;
+			Label = label ?? string.Empty;
 		}
 
 		public void Accept(IVertexVisitor<T> visitor)

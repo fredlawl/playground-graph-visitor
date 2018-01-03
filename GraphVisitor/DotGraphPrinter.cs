@@ -6,6 +6,7 @@ namespace GraphVisitor
 	{
 		private StringBuilder _sb;
 		private IVertexVisitor<Label> _vertexVisitor;
+		public IVertexVisitor<Label> VertexVisitor => _vertexVisitor;
 
 		public DotGraphPrinter()
 		{

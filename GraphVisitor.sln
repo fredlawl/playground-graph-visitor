@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.0.0
 MinimumVisualStudioVersion = 10.0.0.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphVisitor", "GraphVisitor/GraphVisitor.csproj", "{F41FFF5A-B0FF-4B06-A426-C95155A2C6B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphLib", "GraphLib\GraphLib.csproj", "{33E67599-5725-4E60-AC49-EAE74F048224}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F41FFF5A-B0FF-4B06-A426-C95155A2C6B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F41FFF5A-B0FF-4B06-A426-C95155A2C6B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F41FFF5A-B0FF-4B06-A426-C95155A2C6B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33E67599-5725-4E60-AC49-EAE74F048224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33E67599-5725-4E60-AC49-EAE74F048224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33E67599-5725-4E60-AC49-EAE74F048224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33E67599-5725-4E60-AC49-EAE74F048224}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

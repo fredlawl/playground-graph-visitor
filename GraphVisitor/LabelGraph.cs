@@ -13,5 +13,10 @@
 		{
 			visitor.Visit(this);
 		}
+
+		protected override BaseGraph<LabelGraph, Label> Clone()
+		{
+			return new LabelGraph(this.Title);
+		}
 	}
 }

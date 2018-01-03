@@ -23,9 +23,24 @@ namespace GraphVisitor
 		public void AddEdge(TVertex from, Edge<TVertex> to)
 		{
 			AddVertex(from);
+			AddVertex(to.Vertex);
 			_adjacencyList[from].Add(to);
 		}
 
+		public BaseGraph<TGraph, TVertex> GetTranspose()
+		{
+			var graph = Clone();
+			if (graph == null)
+				throw new InvalidOperationException("Call to Clone() returned null.");
+			
+			// todo: Write this function
+			throw new NotImplementedException();
+			
+			return graph;
+		}
+
 		public abstract void Accept(IGraphVisitor<TGraph, TVertex> visitor);
+
+		protected abstract BaseGraph<TGraph, TVertex> Clone();
 	}
 }
